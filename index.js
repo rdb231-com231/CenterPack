@@ -17,6 +17,15 @@ export default class Select {
 
     static output(msg) {
         return console.log(msg);
+    };
+    
+    static randstr(arr) {
+        return arr[Math.floor(Math.random() * arr.length)]
+    };
+
+    static randbln() {
+        arr = [true, false];
+        this.randstr(arr);
     }
 };
 
