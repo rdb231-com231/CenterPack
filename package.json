@@ -1,7 +1,7 @@
 {
   "name": "centerpack",
-  "version": "1.4.0",
-  "description": "The Center Package",
+  "version": "1.0",
+  "description": "The Center Package (+OnDash)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/rdb231-com231/CenterPack#readme",
   "type": "module",
   "dependencies": {
-    "ondash": "^1.0.0"
+    "ondash": "^1.0.0",
+    "package.json": "^2.0.1"
   }
 }
