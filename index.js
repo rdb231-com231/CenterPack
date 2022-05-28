@@ -50,5 +50,4 @@ export class Store {
 };
 
 
-
-const dash = require('ondash');
+import { str, merge, kick } from 'ondash'
